@@ -72,13 +72,55 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
+<h3>Event Registration & Promo Codes</h3>
+<p>Register for each desired mini-workshop below by clicking the corresponding ticket (max 1 ticket per event per person). <br> <strong>ALL TICKETS LISTED AT GENERAL ADMISSION PRICE. PLEASE USE THE APPROPRIATE PROMO CODE BELOW SO YOU ARE CHARGED THE CORRECT PRICE.</strong></p>
+<h4>Promo Codes</h4>
+<p>Please use the promotion code that pertains to you so that you are charged correctly. All tickets are set to the general admission price when a promotion code is not used. Insert the promotion code at the top of the registration box below and it will apply to all tickets in your order.</p>
+  
+During ordering:
+<i><ul>
+  <li>If you are a UW-Madison student or affiliate, please answer the "UW-Madison Department/Program" question when prompted.</li> 
+  <li>If you are a government, non-profit, educational, or general attendee not affiliated with UW-Madison, please answer the "University or Organization Affiliation" question when prompted.</li></ul></i>
+  <table>
+    <tr>
+    <th>Group</th>
+    <th>Description</th>
+    <th>Price</th>
+    <th>Promo Code</th>
+    </tr>
+    <tr>
+      <td>UW-Madison Students</td>
+      <td>This ticket is for UW-Madison undergraduate and graduate students. Please use your WISC email to register so that affiliation can be confirmed.</td>
+      <td>$10</td>
+      <td>UW_Student</td>
+    </tr>
+    <tr>
+      <td>UW-Madison Affiliates</td>
+      <td>Please use your WISC email to register so that affiliation can be confirmed.</td>
+      <td>$15</td>
+      <td>UW_Affiliate</td>
+    </tr>
+    <tr>
+      <td>Government/Non-Profit/Educational</td>
+      <td>This is a discounted ticket for individuals who are affiliated with government, non-profit, or educational institutions.</td>
+      <td>$15</td>
+      <td>Gov_NP_Edu</td>
+    </tr>
+    <tr>
+      <td>Government/Non-Profit/Educational</td>
+      <td>This ticket is for non-UW-Madison affiliated attendees.</td>
+      <td>$150</td>
+      <td>Not Applicable</td>
+    </tr>
+  </table>
+<br>
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="280px"
+  height="540px"
   scrolling="auto">
 </iframe>
 {% endif %}
