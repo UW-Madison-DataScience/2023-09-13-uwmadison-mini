@@ -73,7 +73,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <h3>Event Registration & Promo Codes</h3>
-<p>Register for each desired mini-workshop below by clicking the corresponding ticket (max 1 ticket per event per person). <br> <strong>ALL TICKETS LISTED AT GENERAL ADMISSION PRICE. PLEASE USE THE APPROPRIATE PROMO CODE BELOW SO YOU ARE CHARGED THE CORRECT PRICE.</strong></p>
+<p>Register for each desired mini-workshop below by clicking the corresponding ticket (max 1 ticket per event per person). <br> <strong color="#c5050c";>ALL TICKETS LISTED ARE AT GENERAL ADMISSION PRICE. PLEASE USE THE APPROPRIATE PROMO CODE BELOW SO YOU ARE CHARGED THE CORRECT PRICE.</strong></p>
 <h4>Promo Codes</h4>
 <p>Please use the promotion code that pertains to you so that you are charged correctly. All tickets are set to the general admission price when a promotion code is not used. Insert the promotion code at the top of the registration box below and it will apply to all tickets in your order.</p>
   
