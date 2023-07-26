@@ -84,10 +84,10 @@ During ordering:
 </ul>
   <table>
     <tr>
-    <the width="20%">Group</th>
+    <th width="20%">Group</th>
     <th>Description</th>
     <th>Price</th>
-    <the width="15%">Promo Code</th>
+    <th>Promo Code</th>
     </tr>
     <tr>
       <td>UW-Madison Students</td>
