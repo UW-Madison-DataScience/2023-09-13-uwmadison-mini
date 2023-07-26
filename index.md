@@ -78,39 +78,40 @@ displayed if the 'eventbrite' field in the header is not set.
 <p>Please use the promotion code that pertains to you so that you are charged correctly. All tickets are set to the general admission price when a promotion code is not used. Insert the promotion code at the top of the registration box below and it will apply to all tickets in your order.</p>
   
 During ordering:
-<i><ul>
+<ul>
   <li>If you are a UW-Madison student or affiliate, please answer the "UW-Madison Department/Program" question when prompted.</li> 
-  <li>If you are a government, non-profit, educational, or general attendee not affiliated with UW-Madison, please answer the "University or Organization Affiliation" question when prompted.</li></ul></i>
+  <li>If you are a government, non-profit, educational, or general attendee not affiliated with UW-Madison, please answer the "University or Organization Affiliation" question when prompted.</li>
+</ul>
   <table>
     <tr>
-    <th>Group</th>
+    <the width="20%">Group</th>
     <th>Description</th>
     <th>Price</th>
-    <th>Promo Code</th>
+    <the width="15%">Promo Code</th>
     </tr>
     <tr>
       <td>UW-Madison Students</td>
       <td>This ticket is for UW-Madison undergraduate and graduate students. Please use your WISC email to register so that affiliation can be confirmed.</td>
       <td>$10</td>
-      <td>UW_Student</td>
+      <td><strong>UW_Student</strong></td>
     </tr>
     <tr>
       <td>UW-Madison Affiliates</td>
       <td>Please use your WISC email to register so that affiliation can be confirmed.</td>
       <td>$15</td>
-      <td>UW_Affiliate</td>
+      <td><strong>UW_Affiliate</strong></td>
     </tr>
     <tr>
       <td>Government/Non-Profit/Educational</td>
       <td>This is a discounted ticket for individuals who are affiliated with government, non-profit, or educational institutions.</td>
       <td>$15</td>
-      <td>Gov_NP_Edu</td>
+      <td><strong>Gov_NP_Edu</strong></td>
     </tr>
     <tr>
-      <td>Government/Non-Profit/Educational</td>
+      <td>General Admission</td>
       <td>This ticket is for non-UW-Madison affiliated attendees.</td>
       <td>$150</td>
-      <td>Not Applicable</td>
+      <td><strong><i>Not Applicable</i></strong></td>
     </tr>
   </table>
 <br>
