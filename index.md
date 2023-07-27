@@ -104,7 +104,7 @@ During ordering:
     <tr>
       <td>Government/Non-Profit/Educational</td>
       <td>This is a discounted ticket for individuals who are affiliated with government, non-profit, or educational institutions.</td>
-      <td>$15</td>
+      <td>$50</td>
       <td><strong>Gov_NP_Edu</strong></td>
     </tr>
     <tr>
